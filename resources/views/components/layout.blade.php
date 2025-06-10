@@ -8,19 +8,19 @@
 </head>
 <body>
   <nav>
-    <x-nav-link>
+    <x-nav-link href="/">
       Home
     </x-nav-link>
-    <x-nav-link>
+    <x-nav-link href="/about">
       About
     </x-nav-link>
-    <x-nav-link>
+    <x-nav-link href="/contact">
       Contact
     </x-nav-link>
-    <x-nav-link>
+    <x-nav-link href="/siswa">
       Daftar siswa
     </x-nav-link>
-    <x-nav-link>
+    <x-nav-link href="/siswa/show">
       ID Siswa
     </x-nav-link>
   </nav>
