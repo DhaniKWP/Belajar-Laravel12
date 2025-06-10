@@ -8,6 +8,7 @@
 </head>
 <body>
   <h1>Daftar siswa</h1>
+  {{-- for each --}}
   @foreach ( $data as $item )
     <ul>
       <li>{{$item['nama']}}, {{$item['umur']}}, {{$item['id']}}</li>
