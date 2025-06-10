@@ -8,7 +8,7 @@
 </head>
 <body>
   <nav>
-    <x-nav-link href="/">
+    <x-nav-link href="/" active="123">
       Home
     </x-nav-link>
     <x-nav-link href="/about">
