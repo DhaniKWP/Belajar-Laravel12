@@ -7,6 +7,16 @@
   <title>Halaman Siswa</title>
 </head>
 <body>
-  <h1>HELOOO INI HALAMAN SISWA</h1>
+  <h1>Daftar siswa</h1>
+  @foreach ( $data as $item )
+    <ul>
+      <li>{{$item['nama']}}, {{$item['umur']}}, {{$item['id']}}</li>
+    </ul>
+  @endforeach
+  {{-- <ul>
+    <li>{{$data[0]['nama']}}, {{$data[0]['umur']}}, {{$data[0]['id']}}</li>
+    <li>{{$data[1]['nama']}}, {{$data[1]['umur']}}, {{$data[1]['id']}}</li>
+    <li>{{$data[2]['nama']}}, {{$data[2]['umur']}}, {{$data[2]['id']}}</li>
+  </ul> --}}
 </body>
 </html>
