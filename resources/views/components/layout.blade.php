@@ -8,11 +8,21 @@
 </head>
 <body>
   <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
-    <a href="/siswa">Daftar siswa</a>
-    <a href="/siswa/show">ID Siswa</a>
+    <x-nav-link>
+      Home
+    </x-nav-link>
+    <x-nav-link>
+      About
+    </x-nav-link>
+    <x-nav-link>
+      Contact
+    </x-nav-link>
+    <x-nav-link>
+      Daftar siswa
+    </x-nav-link>
+    <x-nav-link>
+      ID Siswa
+    </x-nav-link>
   </nav>
   <main>
     {{ $slot }}
